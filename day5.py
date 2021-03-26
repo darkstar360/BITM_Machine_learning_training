@@ -15,6 +15,10 @@ def greetings(name):
     return 'Greetings {}'.format(name)
 
 
-take_names()
-for name in names:
-    print(greetings(name))
+def output():
+    take_names()
+    for name in names:
+        print(greetings(name))
+
+
+output()
